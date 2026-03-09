@@ -1,0 +1,279 @@
+@media (max-width: 768px){
+body{
+    overflow-x:hidden;
+}
+
+section{
+    width:100%;
+    padding:40px 0;
+}
+
+
+/* ========================= */
+/* HEADER */
+/* ========================= */
+
+#header{
+    display: flex;
+    position:relative;
+    height:auto;
+    padding:20px 10px;
+    flex-direction: column;
+}
+
+#header-left{
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+}
+
+.header-item{
+    font-size:14px;
+    padding:5px;
+}
+
+
+/* ========================= */
+/* ABOUT */
+/* ========================= */
+
+#about{
+    display:flex;
+    flex-direction:column;
+    height:auto;
+}
+
+#about-right{
+    display:none;
+}
+
+#about-left-content{
+    padding:20px;
+}
+
+#about-left-content-img{
+    width:200px;
+    height:200px;
+}
+
+#about-left-content h1{
+    font-size:28px;
+}
+
+#about-left-content p{
+    width:100%;
+    font-size:16px;
+}
+
+#input-button{
+    width:90%;
+    height:60px;
+    font-size:16px;
+}
+
+
+/* ========================= */
+/* FORMAÇÃO ACADÊMICA */
+/* ========================= */
+
+#forms{
+    display:flex;
+    flex-direction:column;
+    height:auto;
+}
+
+#forms-right{
+    order:-1;
+    padding:40px 20px;
+}
+
+#forms-right-content h1{
+    font-size:36px;
+}
+
+#forms-right-content p{
+    width:100%;
+    font-size:16px;
+}
+
+#forms-left-container{
+    width:95%;
+    min-height:auto;
+    height:auto;
+    gap:20px;
+}
+
+
+/* ========================= */
+/* CARDS ACADÊMICOS */
+/* ========================= */
+
+.card{
+    width:100%;
+    height:400px;
+    grid-template-columns:1fr;
+}
+
+#photo{
+    height:180px;
+}
+
+#photo img{
+    border-radius:15px 15px 0px 0px;
+}
+
+#content{
+    grid-template-rows:auto auto;
+    padding:10px 0;
+}
+
+.info-info{
+    width:95%;
+    height:auto;
+    padding:8px;
+}
+
+
+/* ========================= */
+/* CURSOS */
+/* ========================= */
+
+#courses{
+    height:auto;
+}
+
+#courses-background{
+    height:500px;
+}
+
+#courses-container{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+
+.course-card{
+    width:95%;
+    height:260px;
+}
+
+.course-title p{
+    font-size:14px;
+}
+
+
+/* ========================= */
+/* PROJETOS */
+/* ========================= */
+
+#projects{
+    grid-template-rows:200px auto;
+    height: 3000px;
+}
+
+#projects-title h1{
+    font-size:40px;
+}
+
+#projects-container{
+    width:95%;
+    gap: 10px;
+}
+
+.project-card{
+    width:100%;
+    height:500px;
+}
+
+#p-desc-content p{
+    font-size:14px;
+}
+
+#project-link{
+    grid-template-columns:1fr;
+    gap:15px;
+}
+
+#techs-icons{
+    font-size:30px;
+}
+
+.btn-link{
+    width:90%;
+}
+
+
+/* ========================= */
+/* SKILLS */
+/* ========================= */
+
+#skills{
+    height:auto;
+}
+
+#hab-sec-title{
+    font-size:60px;
+}
+
+#hab-container{
+    flex-direction:column;
+    align-items:center;
+    height:auto;
+}
+
+#soft,
+#hard{
+    width:95%;
+}
+
+.hab-card-title{
+    font-size:28px;
+}
+
+.hab-card-body > div > p{
+    font-size:20px;
+}
+
+.hab-card-body > div > i{
+    font-size:20px;
+}
+
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+
+#contacts{
+    width:100%;
+    padding:30px 10px;
+}
+
+.footer-mid p{
+    font-size:14px;
+}
+
+.footer-right{
+    gap:10px;
+}
+
+.footer-right a{
+    font-size:32px;
+}
+}
+
+@media (max-width:768px){
+    #courses-container{
+        display:flex !important;
+        flex-direction:column !important;
+        width: 402px !important;
+        height: auto !important;
+        align-items:center;
+        gap:20px;
+    }
+
+    .course-card{
+        width:95%;
+    }
+
+}
