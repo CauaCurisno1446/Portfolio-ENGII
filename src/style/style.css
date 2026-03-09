@@ -179,7 +179,7 @@ body{
 
 #about-right-square{
     height: 800px;
-    width: 95.6vh;
+    width: 95.6%;
     background-color: var(--yellow);
     align-self: flex-end;
     border-radius: 100% 0px 0px 0px;
@@ -189,7 +189,7 @@ body{
 
 #about-right-square2{
     height: 600px;
-    width: 95.6vh;
+    width: 95.6%;
     background-color: var(--red);
     align-self: flex-end;
     border-radius: 100% 0px 0px 0px;
@@ -199,7 +199,7 @@ body{
 
 #about-right-square3{
     height: 400px;
-    width: 95.6vh;
+    width: 95.6%;
     background-color: var(--blue);
     align-self: flex-end;
     border-radius: 100% 0px 0px 0px;
@@ -209,7 +209,7 @@ body{
 
 #about-right-square4{
     height: 200px;
-    width: 95.6vh;
+    width: 95.6%;
     background-color: var(--deep-blue);
     align-self: flex-end;
     border-radius: 100% 0px 0px 0px;
@@ -220,7 +220,7 @@ body{
 
 /* Academic */
 #forms{
-    height: 100vh;
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -527,6 +527,7 @@ body{
 /* Competencias */
 #skills{
     height: 100%;
+    padding-bottom: 100px;
 }
 
 #hab-container{
