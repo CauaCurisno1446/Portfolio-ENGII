@@ -376,6 +376,7 @@ body{
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 60px;
 }
 
 #projects-title h1{
@@ -385,6 +386,8 @@ body{
     text-decoration: underline;
     text-decoration-thickness: 4px;
     text-underline-offset: 10px;
+    width: auto;
+    padding-left: 50%;
 }
 
 .project-card {
@@ -529,7 +532,7 @@ body{
     font-size: 60px;
     display: flex;
     justify-content: center;
-    font-family: 'Title-thin', sans-serif;
+    font-family: 'Title', sans-serif;
     font-weight: bold;
 }
 
