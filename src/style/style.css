@@ -372,6 +372,7 @@ body{
     display: grid;
     grid-template-rows: 350px auto;
     background-color: var(--red);
+    scroll-margin-top: 5vh;
 }
 
 #projects-top{
@@ -640,4 +641,20 @@ body{
 .footer-right a:hover{
     transform: translateY(-5px) scale(1.1);
     color: var(--light-blue);
+}
+
+
+/* Animacao */
+@keyframes girar {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(-360deg)
+    }
+}
+
+#sun:hover{
+    animation: girar 5s linear infinite;
 }

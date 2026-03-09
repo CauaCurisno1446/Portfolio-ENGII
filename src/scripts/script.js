@@ -5,7 +5,7 @@ const hora = agora.getHours();
 let mensagem = "";
 
 if (hora >= 5 && hora < 12) {
-    mensagem = "<i class='fa-solid fa-sun' style='color: var(--yellow);'></i> Bom Dia!";
+    mensagem = "<i class='fa-solid fa-sun' style='color: var(--yellow);' id='sun'></i> Bom Dia!";
 } 
 else if (hora >= 12 && hora < 18) {
     mensagem = "<i class='fa-solid fa-cloud-sun' style='color: var(--red);'></i> Boa Tarde!";
