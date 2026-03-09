@@ -285,6 +285,7 @@ body{
 #courses{
     height: 100%;
     display: flex;
+    padding-bottom: 50px;
 }
 
 #courses-background{
@@ -540,7 +541,7 @@ body{
 
 .hab-card-title{
     background-color: transparent;
-    font-size: 60px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
     font-family: 'Title', sans-serif;
