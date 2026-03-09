@@ -306,6 +306,11 @@ body{
     gap: 5px;
 }
 
+#courses-container:hover > :not(:hover){
+    filter: blur(2px);
+    opacity: 0.5;
+}
+
 .course-card {
     width: 380px;
     height: 300px;
@@ -512,6 +517,11 @@ body{
     justify-content: center;
     margin-top: 20px;
     padding-bottom: 50px;
+}
+
+#projects-container:hover > :not(:hover){
+    filter: blur(2px);
+    opacity: 0.5;
 }
 
 /* Competencias */
