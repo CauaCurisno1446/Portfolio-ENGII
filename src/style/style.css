@@ -181,7 +181,7 @@ body{
 
 #about-right-square{
     height: 800px;
-    width: 95.6%;
+    width: 95.6vh;
     background-color: var(--yellow);
     align-self: flex-end;
     border-radius: 100% 0px 0px 0px;
@@ -191,7 +191,7 @@ body{
 
 #about-right-square2{
     height: 600px;
-    width: 95.6%;
+    width: 95.6vh;
     background-color: var(--red);
     align-self: flex-end;
     border-radius: 100% 0px 0px 0px;
@@ -201,7 +201,7 @@ body{
 
 #about-right-square3{
     height: 400px;
-    width: 95.6%;
+    width: 95.6vh;
     background-color: var(--blue);
     align-self: flex-end;
     border-radius: 100% 0px 0px 0px;
@@ -211,7 +211,7 @@ body{
 
 #about-right-square4{
     height: 200px;
-    width: 95.6%;
+    width: 95.6vh;
     background-color: var(--deep-blue);
     align-self: flex-end;
     border-radius: 100% 0px 0px 0px;
