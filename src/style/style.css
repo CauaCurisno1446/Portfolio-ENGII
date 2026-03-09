@@ -89,7 +89,7 @@ body{
 #about{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100vh;
+    height: 100%;
 }
 
 #about-left{
@@ -231,7 +231,7 @@ body{
 
 #forms-left-container{
     width: 70%;
-    height: 90vh;
+    height: 90%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -283,7 +283,7 @@ body{
 
 /* Courses */
 #courses{
-    height: 100vh;
+    height: 100%;
     display: flex;
 }
 
@@ -298,7 +298,7 @@ body{
 
 #courses-container{
     z-index: 1;
-    height: 80vh;
+    height: 80%;
     width: 90%; 
     margin: 150px auto auto auto;
     display: flex;
@@ -526,7 +526,7 @@ body{
 
 /* Competencias */
 #skills{
-    height: 100vh;
+    height: 100%;
 }
 
 #hab-container{
